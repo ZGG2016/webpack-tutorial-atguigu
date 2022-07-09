@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webpack</title>
+</head>
+<body>
+<h1 id="title">webpack</h1>
+<!--    这里引入的是打包了的 main.js,-->
+<!--    如果引入了原来的 index.js, 会报错 `Uncaught SyntaxError: Cannot use import statement outside a module`-->
+<!--    这就是因为用了es6的语法，浏览器没有识别-->
+    <script src="../build/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+这里的版本和视频的版本(webpack@4.41.6 webpack-cli@3.3.11)不同
+
+开发环境: npx webpack-dev-server
+开发环境: webpack
+
+npm install webpack webpack-cli -g
+
+npm install webpack webpack-cli -D
+
+npm install file-loader html-webpack-plugin style-loader css-loader url-loader less-loader html-loader -D
+
+npm install webpack-dev-server -D
+
+npm i mini-css-extract-plugin -D
+
+npm install postcss-loader postcss-preset-env -D
+
+npm install optimize-css-assets-webpack-plugin -D
+npm install css-minimizer-webpack-plugin -D   // webpack5
+
+npm install eslint-loader  eslint eslint-config-airbnb-base  eslint-plugin-import -D
+
+npm install babel-loader @babel/core @babel/preset-env @babel/polyfill core-js -D
+
+npm install workbox-webpack-plugin -D
+
+npm install thread-loader -D
+
+npm install add-asset-html-webpack-plugin -D
+
+npm install terser-webpack-plugin -D
